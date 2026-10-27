@@ -1,9 +1,9 @@
 # HỆ THỐNG QUẢN LÝ NHÂN SỰ (HR MANAGEMENT SYSTEM)
 
 ## I. THÔNG TIN SINH VIÊN
-* **Họ và tên:** Nguyễn Hoàng Khiêm
-* **MSSV:** 237362
-* **Lớp:** DH23TIN10
+- **Họ và tên:** Nguyễn Hoàng Khiêm
+- **MSSV:** 237362
+- **Lớp:** DH23TIN10
 
 ---
 
@@ -13,18 +13,27 @@ Hệ thống quản lý nhân sự triển khai trên nền tảng đám mây, h
 ---
 
 ## III. CÔNG NGHỆ SỬ DỤNG
-* **Frontend:** React
-* **Backend:** Node.js, Express
-* **Database:** MongoDB Atlas
-* **Version Control:** Git, GitHub
-* **Containerization:** Docker, Docker Hub
-* **Deployment Platform:** Render
+- **Frontend:** React, Bootstrap
+- **Backend:** Node.js, Express, Mongoose
+- **Database:** MongoDB Atlas
+- **Version Control:** Git, GitHub
+- **Containerization:** Docker, Docker Hub
+- **Deployment Platform:** Render
 
 ---
 
-## IV. HƯỚNG DẪN CHẠY ỨNG DỤNG Ở MÔI TRƯỜNG PHÁT TRIỂN (LOCAL DEVELOPMENT)
+## IV. THÔNG TIN DOCKER HUB REPOSITORY
+- **Link Docker Hub Backend:** https://hub.docker.com/r/hoangkhiem140405/backend
+- **Link Docker Hub Frontend:** https://hub.docker.com/r/hoangkhiem140405/frontend
 
-### 1. Khởi động Backend
-1. Di chuyển vào thư mục backend:
-   ```bash
-   cd backend
+---
+
+## V. HƯỚNG DẪN CHẠY ỨNG DỤNG BẰNG DOCKER COMPOSE
+
+### 1. Yêu cầu môi trường
+- Máy tính đã cài đặt **Docker** và **Docker Desktop**.
+
+### 2. Khởi động toàn bộ ứng dụng
+Chạy lệnh duy nhất tại thư mục gốc của dự án:
+```bash
+docker compose up -d
